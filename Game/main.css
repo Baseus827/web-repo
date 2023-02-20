@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
 }
-body{
+body {
   width: auto;
   height: auto;
 }
@@ -62,7 +62,12 @@ header .container .navbar ul li a {
   position: absolute;
   color: wheat;
   font-size: 45px;
-  margin-left: 50%;
+  margin-top: 100px; 
+}
+.text{
+  margin: auto;
+  height: 53px;
+  width: 312px;
 }
 .apps {
   height: 500px;
@@ -75,13 +80,13 @@ header .container .navbar ul li a {
   position: absolute;
   margin-left: 50px;
 }
-.calculatorimg{
+.calculatorimg {
   height: 120px;
   position: absolute;
   margin-left: 27px;
   margin-top: 20px;
 }
-.calculator p{
+.calculator p {
   font-family: "Gajraj One", cursive;
   font-size: 15px;
   position: absolute;
