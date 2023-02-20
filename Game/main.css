@@ -4,7 +4,10 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  width: auto;
+  height: auto;
+}
 header .container {
   height: 60px;
   background: rgb(0, 0, 0);
@@ -59,8 +62,7 @@ header .container .navbar ul li a {
   position: absolute;
   color: wheat;
   font-size: 45px;
-  margin-left: 500px;
-  margin-top: 150px;
+  margin-left: 50%;
 }
 .apps {
   height: 500px;
