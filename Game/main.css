@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header .container {
+  height: 60px;
+  background: rgb(0, 0, 0);
+}
+
+header .container .logo {
+  width: 300px;
+}
+
+header .container .logo img {
+  height: 55px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+header .container .logo A {
+  user-select: none;
+  text-align: center;
+  position: absolute;
+  font-family: "Gajraj One", cursive;
+  color: rgb(26, 147, 168);
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+header .container .navbar ul {
+  list-style: none;
+  float: right;
+}
+
+header .container .navbar ul li {
+  display: inline-block;
+}
+
+header .container .navbar ul li a {
+  font-family: "Gajraj One", cursive;
+  color: rgb(26, 147, 168);
+  display: block;
+  margin-right: 75px;
+  margin-top: 20px;
+  user-select: none;
+  text-decoration: none;
+}
+.main {
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(11, 49, 99));
+}
+.welcome {
+  height: 300px;
+}
+.welcome a {
+  position: absolute;
+  color: wheat;
+  font-size: 45px;
+  margin-left: 500px;
+  margin-top: 150px;
+}
+.apps {
+  height: 500px;
+}
+.calculator {
+  height: 200px;
+  width: 150px;
+  background-color: wheat;
+}
