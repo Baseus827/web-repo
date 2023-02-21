@@ -6,6 +6,7 @@
 }
 body{
   display: flex;
+  flex-direction: column;
 }
 .navbar{
   height: 70px;
@@ -29,5 +30,20 @@ body{
   user-select: none;
 }
 .main{
-  
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-image: url(img/main_bg.jpg);
+  background-size: cover;
+  background-position: center;
 }
+.main a{
+  color: wheat;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: 'Mynerve', cursive;
+  margin-top: 350px;
+  padding: 10px 10px;
+}
+.main a:hover{text-decoration: underline; margin-top: 351px;}
