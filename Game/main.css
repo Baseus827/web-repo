@@ -1,38 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Mynerve&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
-body{
+a{
+  text-decoration: none;
+}
+body {
   height: 100vh;
 }
+
 header {
   height: 10.5vh;
   background: rgb(31, 29, 29);
 }
+
 .head {
   width: 250px;
   margin: auto;
 }
+
 .head a {
-  font-size: 25px;
+  font-size: large;
   font-family: "Mynerve", cursive;
-  color: wheat;
+  color: #25d0d6;
   position: absolute;
   margin-top: 20px;
   margin-left: 75px;
 }
+
 .logo {
   height: 60px;
   position: absolute;
   margin-top: 5px;
 }
-.main{
-  height: 79.5vh;
+.codes {
+  height: 40vh;
   background: rgb(34, 33, 33);
 }
-
-
-footer{
+.project {
+  background: rgb(34, 33, 33);
+  height: 39.5vh;
+}
+.project a{
+  color: wheat;
+  font-family: "Mynerve", cursive;
+  font-size: 20px;
+}
+.textp{
+  position: absolute;
+  margin: auto;
+}
+footer {
   height: 10vh;
+  background: rgb(34, 33, 33);
 }
