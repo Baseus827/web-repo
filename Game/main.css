@@ -4,55 +4,27 @@
   margin: 0;
   padding: 0;
 }
-a{
-  text-decoration: none;
+body{
+  display: flex;
 }
-body {
-  height: 100vh;
+.navbar{
+  height: 70px;
+  width: 100%;
+  background: rgb(29, 28, 29);
+  display: flex;
+  justify-content: center;
 }
-
-header {
-  height: 10.5vh;
-  background: rgb(31, 29, 29);
-}
-
-.head {
-  width: 250px;
-  margin: auto;
-}
-
-.head a {
-  font-size: large;
-  font-family: "Mynerve", cursive;
-  color: #25d0d6;
-  position: absolute;
-  margin-top: 20px;
-  margin-left: 75px;
-}
-
-.logo {
-  height: 60px;
-  position: absolute;
-  margin-top: 5px;
-}
-.codes {
-  height: 40vh;
-  background: rgb(34, 33, 33);
-}
-.project {
-  background: rgb(34, 33, 33);
-  height: 39.5vh;
-}
-.project a{
-  color: wheat;
-  font-family: "Mynerve", cursive;
+.navbar a{
+  margin-top: 30px;
+  margin-left: 1%;
+  font-family: 'Mynerve', cursive;
   font-size: 20px;
+  color: wheat;
+  text-decoration: none;
+  user-select: none;
 }
-.textp{
-  position: absolute;
-  margin: auto;
-}
-footer {
-  height: 10vh;
-  background: rgb(34, 33, 33);
+.navbar img{
+  height: 66px;
+  margin-top:2px;
+  user-select: none;
 }
