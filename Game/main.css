@@ -78,6 +78,7 @@ body {
 }
 .projects {
   display: flex;
+  max-height: 80%;
   height: 80%;
   width: 40%;
   background: rgba(255, 255, 255, 0.432); 
@@ -85,8 +86,14 @@ body {
 }
 .assets {
   display: flex;
+  max-height: 80%;
   height: 80%;
   width: 40%;
   background: rgba(255, 255, 255, 0.432);
   border-radius: 15px;
+}
+@media screen and (max-width: 912px) {
+  .assets{width: 49%;}
+  .projects{width: 49%;}
+  .apps{width: 95%;}
 }
