@@ -66,9 +66,27 @@ body {
   text-decoration: underline;
 }
 
-.apps{
+.apps {
   display: flex;
-  flex-direction: column;
-  height: 400px;
-  width:  400px;
+  position: relative;
+  margin-top: 20%;
+  height: 55%;
+  width: 55%;
+  margin: auto;
+  align-items: end;
+  justify-content: space-between;
+}
+.projects {
+  display: flex;
+  height: 80%;
+  width: 40%;
+  background: rgba(255, 255, 255, 0.432); 
+  border-radius: 15px;
+}
+.assets {
+  display: flex;
+  height: 80%;
+  width: 40%;
+  background: rgba(255, 255, 255, 0.432);
+  border-radius: 15px;
 }
