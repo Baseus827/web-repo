@@ -68,6 +68,8 @@ body {
 }
 
 .apps{
+  display: flex;
+  flex-direction: column;
   height: 400px;
-  width:  ;
+  width:  400px;
 }
