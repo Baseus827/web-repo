@@ -4,10 +4,12 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   display: flex;
   flex-direction: column;
 }
+
 .navbar {
   height: 70px;
   width: 100%;
@@ -15,6 +17,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .navbar a {
   margin-top: 25px;
   margin-left: 1%;
@@ -24,29 +27,35 @@ body {
   text-decoration: none;
   user-select: none;
 }
+
 .navbar img {
   height: 66px;
   margin-top: 2px;
   user-select: none;
 }
+
 .main {
   display: flex;
   width: 100%;
-  height: 400px;
+  height: 500px;
   background-image: url(img/main_bg.jpg);
   background-size: cover;
   background-position: center;
+  filter: blur(0.4px);
+  border: none;
 }
+
 .main a {
   color: wheat;
   text-decoration: none;
   margin-left: 1%;
   font-size: 20px;
   font-family: "Mynerve", cursive;
-  margin-top: 350px;
+  margin-top: 450px;
   padding: 10px 10px;
 }
+
 .main a:hover {
   text-decoration: underline;
-  margin-top: 351px;
+  margin-top: 451px;
 }
