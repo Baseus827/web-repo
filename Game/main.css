@@ -106,7 +106,13 @@ body {
   margin-left: 95%;
   margin-top: 45%;
 }
-
+h1{
+  color: black;
+  font-size: 40px;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 50%;
+}
 
 
 @media screen and (max-width: 912px) {
