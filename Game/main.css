@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  position: absolute;
+  height: 10%;
+  width: 100%;
+  margin: auto;
+  z-index: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  position: fixed;
+  margin-top: 1%;
+  height: 10%;
+  width: 30%;
+  background: rgba(255, 255, 255, 0.650);
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav a {
+  size: auto;
+  margin-left: 1%;
+}
+
+.nav img {
+  max-height: 100%;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(90deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4)),
+    url(img/main_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.apps{
+  display: flex;
+  height: 70%;
+  width: 80%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.app{
+  background: rgba(255, 255, 255, 0.199);
+  height: 70%;
+  width: 40%;
+  border-radius: 10px;
+  transition: 0.1s;
+}
+.app:hover{
+  background: rgba(255, 255, 255, 0.699);
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 920px) {
+  .nav{width: 50%;}
+}
