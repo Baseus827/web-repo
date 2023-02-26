@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #272727;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+header {
+  margin: auto;
+}
+
+header h4 {
+  color: rgba(188, 182, 119, 1);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 50px;
+  margin-top: 3%;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  transition: 0.5s;
+  height: 45vh;
+  width: 20%;
+  border-radius: 5px;
+  margin-left: 4%;
+  margin-top: 5%;
+}
+
+.app:hover {
+  background: rgb(168, 168, 168);
+}
+
+.app a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.apph {
+  color: rgb(214, 184, 51);
+}
+
+.image {
+  height: 60%;
+  width: 90%;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  background-image: url("img/appimage.jpg");
+  background-position: center;
+  background-size: cover;
+}
