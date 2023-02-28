@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: red;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.600);
+}
+.logo{
+    text-decoration: none;
+    margin-left: 5%;
+    color: white;
+    font-size: 25px;
+}
+header ul{
+    width: 60%;
+}
+header ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 10%;
+}
+header ul li a{
+    padding: 5px 5px;   
+    text-decoration: none;
+    transition: 0.1s;
+    color: wheat;
+}
+header ul li a:hover{
+    border-bottom: solid 3px;
+}
