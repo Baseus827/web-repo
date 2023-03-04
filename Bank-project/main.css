@@ -10,6 +10,7 @@
 
 .section1 {
   height: 350vh;
+  background-image: linear-gradient(180deg, rgb(66, 199, 14), rgb(10, 97, 10));
 }
 
 .head {
@@ -58,7 +59,6 @@
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  background-image: linear-gradient(170deg, rgb(66, 199, 14), rgb(10, 97, 10));
 }
 
 .main_page_content {
@@ -86,7 +86,6 @@
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  background-image: linear-gradient(390deg, rgb(66, 199, 14), rgb(10, 97, 10));
 }
 
 .we_page_content {
@@ -113,7 +112,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(390deg, rgb(66, 199, 14), rgb(10, 97, 10));
 }
 
 .products_page_content {
@@ -135,6 +133,5 @@
 
 footer{
   height: 50vh;
-  background-image: linear-gradient(180deg, rgb(66, 199, 14), rgb(0, 0, 0));
   width: 100%;
 }
