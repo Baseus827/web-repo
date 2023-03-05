@@ -115,7 +115,7 @@ span {
 @media only screen and (max-width: 1200px) {
   .main{
     width: 70%;
-  border: 10px solid #1f1d1d;
+  border: 5px solid #1f1d1d;
   }
 }
 
